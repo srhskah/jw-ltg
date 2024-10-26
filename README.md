@@ -1,6 +1,6 @@
 # JW LTG Themes
 
-[简体中文版]("./README - zh_CN.md")
+[简体中文版](./README-zh_CN.md)
 
 ### 🎊Chuh Koi! 1st RELEASE Today🎊
 
