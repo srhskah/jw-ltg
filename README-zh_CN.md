@@ -65,7 +65,7 @@ done
 
 重启电脑后，您将看到**更新后**的GRUB菜单（如下图）：
 
-![](.\Updated GRUB Menu (Sample).png)
+<img src=".\Updated GRUB Menu (Sample).png" />
 
 喜欢吗？😊
 
@@ -95,11 +95,11 @@ $ sudo update-initramfs -u	# 更新initramfs以使更改生效
 
 ###### 正常（以VirtualBox为例）
 
-![](.\Updated Plymouth Animation (Sample).png)
+<img src=".\Updated Plymouth Animation (Sample).png" />
 
 ###### Fallback（以VMware Workstation Pro为例）
 
-![](.\Updated Plymouth Animation (Sample Fallback).png)
+<img src=".\Updated Plymouth Animation (Sample Fallback).png" />
 
 喜欢吗？😊
 
@@ -164,7 +164,7 @@ terminal-border: "0"
 
 jw-ltg-themes/**background.png**（推荐使用分辨率1920x1080的图片）
 
-![](.\jw-grub-theme\background.png)
+<img src=".\jw-grub-theme\background.png" />
 
 jw_spinner/**bgrt-fallback.png**
 
