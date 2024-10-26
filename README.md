@@ -65,7 +65,7 @@ done
 
 Reboot the system and you'll see the **updated** GRUB Menu like this:
 
-![](D:\Git_2\jw-ltg-themes\Updated GRUB Menu (Sample).png)
+![](.\Updated GRUB Menu (Sample).png)
 
 Like it?😊
 
@@ -95,11 +95,11 @@ Normally, reboot the system and you'll see the **updated** Plymouth animation li
 
 ###### Normal (e.g. VirtualBox)
 
-![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample).png)
+![](.\Updated Plymouth Animation (Sample).png)
 
 ###### Fallback (e.g VMware Workstation Pro)
 
-![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample Fallback).png)
+![](.\Updated Plymouth Animation (Sample Fallback).png)
 
 Like it?😊
 
@@ -165,15 +165,15 @@ Just copy certain images to the relative directories, and rename to the **BOLDER
 
 jw-ltg-themes/**background.png** (1920x1080 resolution images are recommended)
 
-![](D:\Git_2\jw-ltg-themes\jw-grub-theme\background.png)
+![](.\jw-grub-theme\background.png)
 
 jw_spinner/**bgrt-fallback.png**
 
-<img src="D:\Git_2\jw-ltg-themes\jw-plymouth-theme\jw_spinner\bgrt-fallback.png"  style="float:left" />
+<img src=".\jw-plymouth-theme\jw_spinner\bgrt-fallback.png"  style="float:left" />
 
 jw_spinner/**watermark.png**
 
-<img src="D:\Git_2\jw-ltg-themes\jw-plymouth-theme\jw_spinner\watermark.png" style="float:left" />
+<img src=".\jw-plymouth-theme\jw_spinner\watermark.png" style="float:left" />
 
 ---
 

@@ -65,7 +65,7 @@ done
 
 重启电脑后，您将看到**更新后**的GRUB菜单（如下图）：
 
-![](D:\Git_2\jw-ltg-themes\Updated GRUB Menu (Sample).png)
+![](.\Updated GRUB Menu (Sample).png)
 
 喜欢吗？😊
 
@@ -95,11 +95,11 @@ $ sudo update-initramfs -u	# 更新initramfs以使更改生效
 
 ###### 正常（以VirtualBox为例）
 
-![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample).png)
+![](.\Updated Plymouth Animation (Sample).png)
 
 ###### Fallback（以VMware Workstation Pro为例）
 
-![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample Fallback).png)
+![](.\Updated Plymouth Animation (Sample Fallback).png)
 
 喜欢吗？😊
 
@@ -164,15 +164,15 @@ terminal-border: "0"
 
 jw-ltg-themes/**background.png**（推荐使用分辨率1920x1080的图片）
 
-![](D:\Git_2\jw-ltg-themes\jw-grub-theme\background.png)
+![](.\jw-grub-theme\background.png)
 
 jw_spinner/**bgrt-fallback.png**
 
-<img src="D:\Git_2\jw-ltg-themes\jw-plymouth-theme\jw_spinner\bgrt-fallback.png"  style="float:left" />
+<img src=".\jw-plymouth-theme\jw_spinner\bgrt-fallback.png"  style="float:left" />
 
 jw_spinner/**watermark.png**
 
-<img src="D:\Git_2\jw-ltg-themes\jw-plymouth-theme\jw_spinner\watermark.png" style="float:left" />
+<img src=".\jw-plymouth-theme\jw_spinner\watermark.png" style="float:left" />
 
 ---
 
