@@ -65,7 +65,7 @@ done
 
 Reboot the system and you'll see the **updated** GRUB Menu like this:
 
-![](.\Updated GRUB Menu (Sample).png)
+<img src=".\Updated GRUB Menu (Sample).png" />
 
 Like it?😊
 
@@ -95,11 +95,11 @@ Normally, reboot the system and you'll see the **updated** Plymouth animation li
 
 ###### Normal (e.g. VirtualBox)
 
-![](.\Updated Plymouth Animation (Sample).png)
+<img src=".\Updated Plymouth Animation (Sample).png" />
 
 ###### Fallback (e.g VMware Workstation Pro)
 
-![](.\Updated Plymouth Animation (Sample Fallback).png)
+<img src=".\Updated Plymouth Animation (Sample Fallback).png" />
 
 Like it?😊
 
@@ -165,7 +165,7 @@ Just copy certain images to the relative directories, and rename to the **BOLDER
 
 jw-ltg-themes/**background.png** (1920x1080 resolution images are recommended)
 
-![](.\jw-grub-theme\background.png)
+<img src=".\jw-grub-theme\background.png" />
 
 jw_spinner/**bgrt-fallback.png**
 
