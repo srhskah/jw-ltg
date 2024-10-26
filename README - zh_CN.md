@@ -1,50 +1,50 @@
-# JW LTG Themes
+# JW LTG主题
 
-[简体中文版](./README - zh_CN.md)
+[English ver.](./README.md)
 
-### 🎊Chuh Koi! 1st RELEASE Today🎊
+### 🎊Chuh Koi! 今日首次RELEASE🎊
 
-(Chuh Koi: "Congratulations" in [Lenda Sarieh](https://lendasarieh.github.io))
+（Chuh Koi：[白菜语](https://lendasarieh.github.io)的“祝贺，恭喜”）
 
-New **GRUB** & **Plymouth** theme for Linux users, created by JW!
+JW制作，为Linux用户打造的全新的**GRUB**和**Plymouth**主题，正！式！上！线！啦！
 
----
+----
 
-### GRUB Theme
+### GRUB主题
 
 ##### Ubuntu
 
-First, you'd better download, unzip and copy the related files to the directory called `/boot/grub/themes`.
+首先，下载、解压并复制有关文件到`/boot/grub/themes`目录。
 
 ```shell
-$ tar -zxvf jw-grub-theme.tar.gz	# Unzip the file (In "Releases")
-$ sudo mkdir /boot/grub/themes		# If there DOESN'T exist this directory
-$ sudo cp -r jw-grub-theme /boot/grub/themes	# Copy the unzipped folder to this directory
+$ tar -zxvf jw-grub-theme.tar.gz	# 解压这个文件（在“Releases”里）
+$ sudo mkdir /boot/grub/themes		# 如果不存在该目录，创建它
+$ sudo cp -r jw-grub-theme /boot/grub/themes	# 将解压后的文件夹复制到该目录
 ```
 
-Then, find and open the file `/etc/default/grub` via your editor
+然后，找到并用文本编辑器打开这个文件`/etc/default/grub`。
 
 ```shell
 $ sudo nano /etc/default/grub
 ```
 
-Add these lines to the file `/etc/default/grub`, then save the file:
+在`/etc/default/grub`里添加以下几行，并保存文件：
 
 ```shell
 [...]
-# If there exist these lines, modify them like THESE
+# 如果已有这几行，改成这样
 GRUB_THEME=/boot/grub/themes/jw-grub-theme
 GRUB_GFXMODE=1920x1080
 [...]
 ```
 
-Afterwards, apply the change to the GRUB using command:
+接下来，执行这条命令，使更改生效：
 
 ```shell
 $ sudo update-grub
 ```
 
-Normally, you should see the following output:
+正常情况下，您将会看到以下输出：
 
 ```shell
 Sourcing file `/etc/default/grub'
@@ -63,58 +63,58 @@ Check GRUB_DISABLE_OS_PROBER documentation entry.
 done
 ```
 
-Reboot the system and you'll see the **updated** GRUB Menu like this:
+重启电脑后，您将看到**更新后**的GRUB菜单（如下图）：
 
 ![](D:\Git_2\jw-ltg-themes\Updated GRUB Menu (Sample).png)
 
-Like it?😊
+喜欢吗？😊
 
 ---
 
-### Plymouth Theme
+### Plymouth主题
 
 ##### Ubuntu
 
-First, you'd better download, unzip and copy the related files to the directory called `/usr/share/plymouth`
+首先，下载、解压并复制有关文件到`/boot/grub/themes`目录。
 
 ```shell
-$ tar -zxvf jw-plymouth-theme.tar.gz			# Unzip the file (In "Releases")
+$ tar -zxvf jw-plymouth-theme.tar.gz			# 解压这个文件（在“Releases”里）
 $ cd jw-plymouth-theme
-# Copy these directories here (Copy the BOTH!!!)
+# 将这些文件夹复制到/boot/grub/themes目录（两个都要复制哦）
 $ sudo cp -r jw-ltg /usr/share/plymouth/themes && sudo cp -r jw_spinner /usr/share/plymouth/themes
 ```
 
-Then, enable the theme using the following commands:
+然后，执行以下命令以启用该主题：
 
 ```Shell
 $ sudo ln -sf /usr/share/plymouth/themes/jw-ltg/jw-ltg.plymouth /usr/share/plymouth/themes/default.plymouth
-$ sudo update-initramfs -u	# Update the initramfs to apply the change
+$ sudo update-initramfs -u	# 更新initramfs以使更改生效
 ```
 
-Normally, reboot the system and you'll see the **updated** Plymouth animation like this:
+正常情况下，重启电脑，您将看到**更新后**的Plymouth动画（如下图）：
 
-###### Normal (e.g. VirtualBox)
+###### 正常（以VirtualBox为例）
 
 ![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample).png)
 
-###### Fallback (e.g VMware Workstation Pro)
+###### Fallback（以VMware Workstation Pro为例）
 
 ![](D:\Git_2\jw-ltg-themes\Updated Plymouth Animation (Sample Fallback).png)
 
-Like it?😊
+喜欢吗？😊
 
 ---
 
-### Custom
+### 自定义
 
-Change to your style? No problem!
+想换成自己喜欢的样式？没问题！
 
-###### Text (GRUB Menu)
+###### 文字（GRUB菜单）
 
 jw-ltg-themes/**theme.txt**
 
 ```shell
-# Main options
+# 主要选项
 title-text: ""
 desktop-image: "background.png"
 desktop-color: "#000000"
@@ -127,7 +127,7 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-# Boot menu
+# 启动菜单
 + boot_menu {
   left = 15%
   top = 40%
@@ -145,8 +145,7 @@ terminal-border: "0"
   selected_item_pixmap_style = "select_*.png"
 }
 
-
-# Countdown label
+# 倒计时标签
 # You can change the name of default starting OS here
 + label {
   left = 15%
@@ -159,11 +158,11 @@ terminal-border: "0"
 }
 ```
 
-###### Images (GRUB/Plymouth)
+###### 图片（GRUB/Plymouth）
 
-Just copy certain images to the relative directories, and rename to the **BOLDER** filenames.
+将指定的图片复制到相应的目录，重命名为**加粗的**文件名即可
 
-jw-ltg-themes/**background.png** (1920x1080 resolution images are recommended)
+jw-ltg-themes/**background.png**（推荐使用分辨率1920x1080的图片）
 
 ![](D:\Git_2\jw-ltg-themes\jw-grub-theme\background.png)
 
@@ -177,15 +176,15 @@ jw_spinner/**watermark.png**
 
 ---
 
-### Contact Me
+### 联系我
 
-If there's any problem with the content above, just send a feedback!
+如果就上述内容有任何问题，请速向本人反馈！
 
-E-mail: jack201806@outlook.com
+电子邮箱: jack201806@outlook.com
 
-QQ (Personal): 1625351963
+本人QQ号: 1625351963
 
-QQ Group: [518075828](https://qm.qq.com/q/ZRfSu4nwMo )
+QQ群: [518075828](https://qm.qq.com/q/ZRfSu4nwMo )
 
-Weixin: srhskah
+本人微信号: srhskah
 
