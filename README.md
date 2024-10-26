@@ -99,6 +99,8 @@ Like it?😊
 
 ### Contact Me
 
+If there's any problem with the content above, just send a feedback!
+
 E-mail: jack201806@outlook.com
 
 QQ (Personal): 1625351963
