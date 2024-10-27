@@ -79,9 +79,8 @@ done
 
 ```shell
 $ tar -zxvf jw-plymouth-theme.tar.gz			# 解压这个文件（在“Releases”里）
-$ cd jw-plymouth-theme
-# 将这些文件夹复制到/boot/grub/themes目录（两个都要复制哦）
-$ sudo cp -r jw-ltg /usr/share/plymouth/themes && sudo cp -r jw_spinner /usr/share/plymouth/themes
+# 将这些文件夹复制到/boot/grub/themes目录
+$ sudo cp -r jw-plymouth-theme/* /usr/share/plymouth/themes
 ```
 
 然后，执行以下命令以启用该主题：

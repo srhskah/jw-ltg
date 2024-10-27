@@ -79,9 +79,8 @@ First, you'd better download, unzip and copy the related files to the directory 
 
 ```shell
 $ tar -zxvf jw-plymouth-theme.tar.gz			# Unzip the file (In "Releases")
-$ cd jw-plymouth-theme
-# Copy these directories here (Copy the BOTH!!!)
-$ sudo cp -r jw-ltg /usr/share/plymouth/themes && sudo cp -r jw_spinner /usr/share/plymouth/themes
+# Copy these directories to the directory /usr/share/plymouth/themes
+$ sudo cp -r jw-plymouth-theme/* /usr/share/plymouth/themes
 ```
 
 Then, enable the theme using the following commands:
