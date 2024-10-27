@@ -33,7 +33,7 @@ Add these lines to the file `/etc/default/grub`, then save the file:
 ```shell
 [...]
 # If there exist these lines, modify them like THESE
-GRUB_THEME=/boot/grub/themes/jw-grub-theme
+GRUB_THEME=/boot/grub/themes/jw-grub-theme/theme.txt
 GRUB_GFXMODE=1920x1080
 [...]
 ```
