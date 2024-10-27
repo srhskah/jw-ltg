@@ -33,7 +33,7 @@ $ sudo nano /etc/default/grub
 ```shell
 [...]
 # 如果已有这几行，改成这样
-GRUB_THEME=/boot/grub/themes/jw-grub-theme/theme.
+GRUB_THEME=/boot/grub/themes/jw-grub-theme/theme.txt
 GRUB_GFXMODE=1920x1080
 [...]
 ```
